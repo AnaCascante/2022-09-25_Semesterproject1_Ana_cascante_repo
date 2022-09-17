@@ -1,0 +1,118 @@
+
+/*fonts for this project
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+/* why is this not working!!!
+@font-face {
+    font-family: 'Fira Sans', 'Pacifico', cursive,'PT Sans','Source Sans Pro' sans-serif;
+ 
+    src url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=PT+Sans&family=Pacifico&family=Source+Sans+Pro&display=swap);
+    format ("truetype");  
+}
+*/
+
+/*this should affect all the pages*/
+
+body {
+    margin:auto;
+    background-color: #F5EEDA;
+}
+
+p {
+    font-family: 'PT Sans', verdana, tahoma, sans-serif;
+}
+
+h2 { 
+    font-family: 'Source Sans Pro', verdana, tahoma, sans-serif;
+}
+
+h1 {
+    font-family: 'Fira Sans', verdana, tahoma, sans-serif;
+}
+/*NAV*/
+
+header {
+    background-color: #03258C;
+    margin: 0;
+    padding: auto; 
+}
+
+.logo {
+    border-radius: 20px;
+    margin: 60px;
+    
+}
+
+/*needs more work!!!!!!!! */
+nav li a {
+    color: #f2b705;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: right;
+    display: block;
+    margin: 60px;  
+}
+
+
+
+/*this is for the index page*/
+
+.mus {
+    width:fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 200px;
+    max-width: 30%;
+    max-height: 30%;
+    padding: auto;
+    border-radius: 20px;
+}
+
+.intro {
+    text-align: right; 
+}
+
+.intro h1 {
+    text-align: center;
+}
+
+.bulb {
+    width:fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 200px;
+    max-width: 30%;
+    max-height: 30%;
+    padding: auto;
+    border-radius: 50%;
+}
+
+.expopic {
+    width:fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 200px;
+    max-width: 30%;
+    max-height: 30%;
+    padding: auto;
+    border-radius: 20px;
+}
+
+
+/*Explore page*/
+
+.vrheadset{
+    width:fit-content;
+    height: fit-content;
+    width: 400px;
+    height: 200px;
+    max-width: 30%;
+    max-height: 30%;
+    padding: auto;
+    border-radius: 50%;
+}
