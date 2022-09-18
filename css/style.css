@@ -49,6 +49,8 @@ h1 {
     border-radius: 20px;
 }
 
+/*size for most of the pic in the website*/
+
 #museumwall, #whiteroom, #giantant, #geometrical  {
     width:fit-content;
     height: fit-content;
@@ -62,7 +64,7 @@ h1 {
 
 /*NAV*/
 
-header {
+header, footer {
     background-color: #03258C;
     max-width: 100%;
     height: 10rem;
@@ -118,7 +120,10 @@ ul {
 
 /*footer*/
 
-
+.mediabuttoms {
+    text-align: right;
+    margin: 15px 100px;
+}
 
 
 
@@ -136,6 +141,21 @@ ul {
     margin: 40px 100px;
 }
 
+#textexplore {
+    text-align: left;
+    margin: 40px 20px 40px -4rem;
+}
+
+#textexhibition {
+    text-align: left;
+    margin: 40px 20px 40px -6rem;
+}
+
+
+#textevents {
+    text-align: left;
+    margin: 40px 0 40px -6rem;
+}
 
 #intro h1 {
     text-align: center;
@@ -153,7 +173,14 @@ ul {
 }
 
 #scroll {
-    
+    margin: 40px 100px;
+    overflow: scroll;
+    height: 200px;  
+}
+
+.title-pic {
+    text-aling: left;
+    margin: 40px 350px 0;
 }
  
 /*
