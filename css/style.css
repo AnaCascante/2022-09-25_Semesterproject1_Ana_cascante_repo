@@ -15,10 +15,19 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 */
 
+/*color palette 
+#D92B04 - red
+#F27405 - orange
+#F2B705 - yellow
+#0487D9 - light blue
+#03258C - dark blue
+#000000 - black
+#F9F1F1 - light grey
+#707070 - dark grey 
+#FFFFFF - white
+*/
 
-
-
-/*this should affect all the pages*/
+/*---------------this should affect all the pages--------------*/
 
 body {
     margin:auto;
@@ -65,7 +74,8 @@ h1 {
     margin: 40px 200px;
 }
 
-/*NAV*/
+
+/*---------------NAV--------------*/
 
 header, footer {
     background-color: #03258C;
@@ -255,10 +265,14 @@ ul {
     border-radius: 50%; 
 }
 
-
+/*---------------this should affect all the pages--------------*/
 /*footer*/
 
 .mediabuttoms {
     text-align: right;
     margin: 15px 100px;
 }
+
+
+
+/*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*//*---------------this should affect all the pages--------------*/
