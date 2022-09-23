@@ -1,12 +1,6 @@
 
 
-/*
-.grid-containter {
-    display: grid;
-    width: 90%;
-    margin: auto;
-    grid-template-columns: 1fr 1fr;
-}*/
+
 
 .intro h1 {
     text-align: center;
@@ -27,12 +21,12 @@
     margin: 40px 230px;
 }
 
-
+/* in main
 .scroll {
     margin: 40px 100px;
     overflow: scroll;
     height: 200px;  
-}
+}*/
 
 
 .title-pic {
@@ -50,8 +44,8 @@
 .specialevents{
     margin: 4px 280px;
 }
-
-.textexplore, .textexhibition, .textevents {
+/*
+.text {
     text-align: center;
     margin: 40px 20px 40px -4rem;
 }
@@ -71,12 +65,4 @@
     margin: 40px 200px 60px;
 }
 
-
-
-.grid-container {
-    display: grid;
-    width: 90%;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
-}
 

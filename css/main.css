@@ -47,8 +47,26 @@ h2 {
     font-weight: bold;
 }
 
+.grid-container {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.scroll {
+    margin: 40px 100px;
+    overflow: scroll;
+    height: 150px;  
+}
 
 
+/*make the text float under the pictures */
+
+.text {
+    text-align: center;
+    margin: 40px 20px 40px -4rem;  
+}
 
 
 
@@ -135,7 +153,18 @@ ul {
     margin: 0 auto;
 }
  
+.expotitle {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.vrheadset, .mooncicles, .happyastro, .welcome {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 
 /*check if this works in the phone!!!!
