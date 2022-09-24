@@ -83,7 +83,7 @@ h2 {
     margin: 40px 200px auto;
 }
 
-.vrheadset, .welcome, .freesign, .clocks, .wheelchair, .cafeshop, .shoppingbag, .gps {
+.vrheadset, .welcome, .freesign, .clocks, .wheelchair, .cafeshop, .shoppingbag, .gps, .join-us, .question-mark {
     width:fit-content;
     height: fit-content;
     width: 350px;
@@ -93,7 +93,12 @@ h2 {
     padding: 20px 100px;
     border-radius: 50%; 
 }
+.vrheadset, .mooncicles, .happyastro, .welcome, .join-us {
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 /*---------------NAV--------------*/
 
@@ -125,15 +130,12 @@ nav{
     
 }
 
-
-/*needs more work!!!!!!!! */
 nav li {  
     font-family: 'Fira Sans', sans-serif;
     text-align: right;
     display:inline-flex;
    
 }
-
 
 nav li a {
     color: #f2b705;
@@ -159,20 +161,21 @@ ul {
     margin-right: auto;
 }
 
-.vrheadset, .mooncicles, .happyastro, .welcome {
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+/*---- responsive to devices----*/
+
+/* ----- for mobile devices---*/
+@media screen and (max-widht: 480px) {
+    
 }
 
+/* ----- for tablets devices---*/
+@media screen and (max-widht: 767px) {
+    
+}
 
-/*check if this works in the phone!!!!
-@media screen and (max-width (600px)) {
-    nav {
-        float: right;
-        display: block;
+/* ----- for laptops and desktops devices---*/
+@media screen and (max-widht: 1025px) and (orientation: landscape) {
+    
+}
 
-
-    }
-}*/

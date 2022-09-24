@@ -1,0 +1,26 @@
+
+
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    margin:auto;
+    text-align: right;
+    
+}
+
+label {
+    display:block; 
+    margin: none; 
+}
+
+.button {
+    display:block;
+    width: 15%;
+    height: 2em;
+    margin:0%;
+    font-size: 1rem;
+    border-radius: 2em;
+    font-style:initial;
+}

@@ -31,30 +31,49 @@
     </header>
     <main>
         <h1 class="expotitle">Get involved</h1>
-        <img src="image/getinvolved/pexels-linda-ellershein-3127880joinus_compressunder200kb.jpg" alt="join us">
-        <section>
-            <img src="image/getinvolved/scientific-2040795_1280compress under 200kb.jpg" alt="scientific in the lab">
-            <h2>Interships</h2>
-            <p>
+        <img src="image/getinvolved/pexels-linda-ellershein-3127880joinus_compressunder200kb.jpg" alt="join us" class="join-us">
+        <section class="grid-container">
+            <div class="grid-item">
+                <img src="image/getinvolved/scientific-2040795_1280compress under 200kb.jpg" alt="scientific in the lab" class="expopic">
+            </div>
+            <div class="grid-item scroll">
+                <h2>Interships</h2>
+                 <p>
                 Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.
                 You'll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.
-            </p>
-            <img src="image/getinvolved/volunteer_11zon compress under 200kb.jpg" alt="volunteer">
-            <h2>Volunteer</h2>
-            <p>
+                </p>
+            </div>
+        </section>
+        <section class="grid-container">
+            <div class="grid-item">
+                <img src="image/getinvolved/volunteer_11zon compress under 200kb.jpg" alt="volunteer" class="expopic">
+            </div>
+            <div class="grid-item scroll">
+                <h2>Volunteer</h2>
+                <p>
                 A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.
                 You can help volunteer in a number of different spheres. Please contact us if you'd like to find out more about how you can get involved.
-            </p>
-            <img src="image/getinvolved/pexels-liza-summer-6348119donate_compressunder200kb.jpg" alt="donate">
-            <h2>Support</h2>
-            <p>       
+                </p>
+            </div>
+        </section>
+        <section class="grid-container">
+            <div class="grid-item">
+                <img src="image/getinvolved/pexels-liza-summer-6348119donate_compressunder200kb.jpg" alt="donate" class="expopic">
+            </div>
+            <div class="grid-item scroll">
+                <h2>Support</h2>
+                <p>       
                 There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community. 
                 You can also support us by donating items of interest to the museum's collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.
-            </p>
+                </p>
+            </div>
         </section>
-        <section>
-            <img src="image/getinvolved/pexels-pixabay-356079questionmark_compressunder200kb.jpg" alt="questionmark">
-            <form action="Send message" method="post" class="sendform">
+        <section class="grid-container" id="send-message">
+            <div class="grid-item">
+                <img src="image/getinvolved/pexels-pixabay-356079questionmark_compressunder200kb.jpg" alt="questionmark" class="question-mark">
+            </div>
+            <div class="grid-item">
+                <form action="Send message" method="post" class="sendform">
                 <label for="name">Name</label>
                 <input type="text" id="name">
                 <label for="email">E-post</label>
@@ -63,8 +82,9 @@
                 <input type="text" name="subject" id="subject">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                <input type="submit" name="submit" id="submit">
-            </form>
+                <input type="submit" name="submit" id="submit" class="button">
+                </form>
+            </div>
         </section>
     </main>
     <footer>
@@ -77,7 +97,7 @@
                     <a href="getinvolved.html" class="active">Get involved</a>
                 </li>
                 <li>
-                    <a href="visit.html" class="active">Contact us</a>
+                    <a href="getinvolved.html#send-message" class="active">Contact us</a>
                 </li>
             </ul>
             <div class="mediabuttons">

@@ -16,6 +16,7 @@
     display: flex;
 }
 
+
 .container .item .imgbx {
     width: auto;
     flex: 0 0 150px; 
@@ -26,10 +27,14 @@
 }
 
 .container .item .content {
-    margin-left: 20px;
+    margin-left:auto;
 }
 
+.admission, .open, .shop {
+    margin-left: 20rem
+}
 
+/*
 @media screen {max-width: 775px
     .container {
         flex-direction: column;
@@ -44,5 +49,4 @@
     .container .item .content {
         margin-left: 0;
     }
-    
-}
+    */
