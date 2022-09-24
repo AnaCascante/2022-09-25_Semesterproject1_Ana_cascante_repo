@@ -57,7 +57,8 @@ h2 {
 .scroll {
     margin: 40px 100px;
     overflow: scroll;
-    height: 150px;  
+    height: 150px;
+    max-width: 100%;  
 }
 
 
@@ -66,6 +67,7 @@ h2 {
 .text {
     text-align: center;
     margin: 40px 20px 40px -4rem;  
+    max-width: 100%;
 }
 
 
@@ -108,6 +110,7 @@ header, footer {
     max-width: 100%;
     height: 10rem;
     max-height: fit-content;
+    max-width: fit-content;
    
 }
 
@@ -165,17 +168,24 @@ ul {
 /*---- responsive to devices----*/
 
 /* ----- for mobile devices---*/
-@media screen and (max-widht: 480px) {
-    
+@media screen and (min-widht: 480px) and (max-width: 766px) {
+    .grid-container {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: none;
+      
+    }
 }
 
+
 /* ----- for tablets devices---*/
-@media screen and (max-widht: 767px) {
+@media screen and (minx-widht: 767px) and (max-width: 1024px) and (orientation: landscape)  {
     
 }
 
 /* ----- for laptops and desktops devices---*/
-@media screen and (max-widht: 1025px) and (orientation: landscape) {
+@media screen and (max-widht: 1025px) and (max-width: 1281px) {
     
 }
 
