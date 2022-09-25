@@ -1,12 +1,5 @@
 
-.imgbx { 
-    background-color: aqua;
-}
 
-.content {
-    background-color: blue;
-
-}
 
 .container {
     position: relative;
@@ -69,7 +62,5 @@
 
     .container, .item, .imgbx, .content {
         flex:1em;    
-  }
-
-
-    
+    }
+}
