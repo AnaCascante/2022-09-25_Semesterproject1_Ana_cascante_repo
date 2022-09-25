@@ -1,4 +1,12 @@
 
+.imgbx { 
+    background-color: aqua;
+}
+
+.content {
+    background-color: blue;
+
+}
 
 .container {
     position: relative;
@@ -28,6 +36,7 @@
 
 .container .item .content {
     margin-left:auto;
+    width: 100%;
 }
 
 .admission, .open, .shop {
@@ -36,60 +45,30 @@
 
 /* ----- for mobile devices---*/
 
-@media screen and (min-widht: 480px) and (max-width: 766px) {
+@media screen and /*(min-widht: 480px) and*/ (max-width: 766px) {
     .container {
-        position: absolute;
-        width: fit-content;
+        position: unset;
         display: flex;
-        justify-content: space-between;
-        align-items: inherit;
+        margin: 1rem;
+        flex: none;
+        width: 100%;
     }
-
-    .item {
-        position:fixed;
-        margin-left: 0;
-        max-width: 50%;
-        padding: 15px; 
-        display: flex; 
+    .content {
+        padding: 10px 10px;
+        margin: auto;
+        width: 100%;
     }
     .imgbx {
-        margin-left: 0; 
+        padding: 20px 30px 20px 30px;
+        flex: none;
+    }
+    
+    .shoptext {
+        padding: 20px 50px;
+    }
 
-    }
-
-    .content {
-        display: flex; 
-        text-align: center;
-
-
-    }
-    /*
-    .container .item . {
-        position: relative;
-        max-width: 450px;
-        margin: 10px;
-        padding: 15 px; 
-        display: flex;
-    }
-    
-    
-    .container .item .imgbx {
-        width: auto;
-        flex: 0 0 150px; 
-    }
-    
-    .container .item .imgbx img{
-        max-width: 100%;
-    }
-    
-    .container .item .content {
-        margin-left:auto;
-    }
-    
-    .admission, .open, .shop {
-        margin-left: 20rem
-    }
-*/
+    .container, .item, .imgbx, .content {
+        flex:1em;    
   }
 
 
