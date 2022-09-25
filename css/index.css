@@ -1,8 +1,6 @@
 
 
-.museumwall {
-    background-color: red;
-}
+
 
 
 .intro h1 {
@@ -11,7 +9,6 @@
 .intro {
     text-align: left;
     margin: 40px 100px;
-    background-color: yellowgreen;
 }
 
 .bulb {
