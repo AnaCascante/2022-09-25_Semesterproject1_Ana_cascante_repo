@@ -1,5 +1,8 @@
 
 
+.museumwall {
+    background-color: red;
+}
 
 
 .intro h1 {
@@ -8,6 +11,7 @@
 .intro {
     text-align: left;
     margin: 40px 100px;
+    background-color: yellowgreen;
 }
 
 .bulb {
@@ -30,20 +34,22 @@
 
 
 .title-pic {
-    margin: 40px 350px 0;
+    margin: 40px 250px 0;
     display: inline-flexbox;
     font-size: 2rem;
     width: 50%;   
 }
 
 .exhib-space {
-    margin: 60px 280px 20px; 
+    margin: 60px 200px 20px; 
     display: center;
 }
 
 .specialevents{
-    margin: 4px 280px;
+    margin: 4px 150px;
 }
+
+
 /*
 .text {
     text-align: center;
@@ -61,8 +67,5 @@
 }
 */
 
-.geometrical {
-    margin: 40px 200px 60px;
-}
 
 

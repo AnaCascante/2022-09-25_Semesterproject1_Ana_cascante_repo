@@ -51,14 +51,37 @@ h2 {
     display: grid;
     width: 90%;
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr
 }
+
+.grid-item {
+    max-width: 100%;
+    margin: auto;
+    display: grid;   
+}
+
 
 .scroll {
     margin: 40px 100px;
     overflow: scroll;
-    height: 150px;
+    height: 50%;
+    width: 70%;
     max-width: 100%;  
+}
+
+/* ----- for mobile devices---*/
+
+@media screen and (min-widht: 480px) and (max-width: 766px) {
+    .grid-container {
+        display:grid;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns:repeat( auto-fit, minmax (200px, 1fr));
+    }
+    .grid-item {
+        grid-template-columns: 1fr;
+    }
+       
 }
 
 
@@ -82,7 +105,7 @@ h2 {
     max-width: 70%;
     max-height: 70%;
     border-radius: 20px;
-    margin: 40px 200px auto;
+    margin: 40px 100px 40px;
 }
 
 .vrheadset, .welcome, .freesign, .clocks, .wheelchair, .cafeshop, .shoppingbag, .gps, .join-us, .question-mark {
@@ -107,10 +130,11 @@ h2 {
 
 header, footer {
     background-color: #03258C;
-    max-width: 100%;
     height: 10rem;
-    max-height: fit-content;
-    max-width: fit-content;
+    max-height:100%;
+    max-width: 100%;
+    width:100%;
+    height: fit-content;
    
 }
 
@@ -167,16 +191,7 @@ ul {
 
 /*---- responsive to devices----*/
 
-/* ----- for mobile devices---*/
-@media screen and (min-widht: 480px) and (max-width: 766px) {
-    .grid-container {
-        display: grid;
-        width: 90%;
-        margin: 0 auto;
-        grid-template-columns: none;
-      
-    }
-}
+
 
 
 /* ----- for tablets devices---*/
