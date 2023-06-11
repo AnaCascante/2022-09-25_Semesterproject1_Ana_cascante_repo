@@ -1,5 +1,5 @@
 
-# Good food good mood
+# Community Science Museum 
 
 ![Alt text](<img/good food good mood-biglogo.png>)
 
