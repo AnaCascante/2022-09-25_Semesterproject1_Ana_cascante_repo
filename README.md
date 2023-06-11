@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-# 2022-09-25_Semesterproject1_Ana_cascante_repo
-Repository of my semester project 1
-=======
 
 # Community Science Museum 
 
-![Alt text](<img/good food good mood-biglogo.png>)
+![Alt text](<image/home/museum outsiteview_11zon compress under 200 kb.jpg>)
 
 This is the semester project, I do my first project from design to coding- using tech stack HTML and CSS- the languages learned until now. 
 
