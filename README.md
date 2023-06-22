@@ -68,7 +68,7 @@ Those are the tech stacks used to built this project
 ### Installing
 
 
-Here is a link to my project in Github: 
+```$ git clone ```
 And a link to the livedemo side: https://animated-smakager-2e35a5.netlify.app/
 
 
