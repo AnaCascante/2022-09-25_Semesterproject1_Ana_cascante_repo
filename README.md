@@ -21,21 +21,24 @@ Those are the tech stacks used to built this project
 ## Getting Started
 
 
-### Installing
+### Installing 
 
 
-```$ git clone ```
-And a link to the livedemo side: https://animated-smakager-2e35a5.netlify.app/
+```$ git clone https://github.com/AnaCascante/2022-09-25_Semesterproject1_Ana_cascante_repo.git ```
+
+## Visit side: 
+
+Link to the livedemo side: https://animated-smakager-2e35a5.netlify.app/
 
 
 ## Contact
 
 github: https://github.com/AnaCascante
 
-linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+linkedin: https://www.linkedin.com/in/ana-cascante-de-quadras-4301521a/
 
 
 ## Acknowledgments
 
 I am greatfull for the help given from the teachers in Noroff to get to understand and progress on my studies and getting the tools to be able to make this project. Also to the fellow students, for the chats and encouraging words, those are precious in times of stress and frustration. Also to my family that has shown me patients in my journey to get another career, giving me the space needed to study and work.
->>>>>>> 7d00ba1e5fc6884b653933ee31c00ed27b6367d3
+
